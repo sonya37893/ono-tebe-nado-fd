@@ -1,9 +1,10 @@
+
 header {
     display: grid;
     grid-template-columns: auto 1fr auto;
-    gap: 38px;
+    gap: 24px;
     align-items: center;
-    padding: 92px 70px 95px;
+    padding: 92px 61px 96px;
     box-sizing: border-box;
     width: 1100px;
 }
@@ -11,7 +12,7 @@ header {
     display: flex;
     list-style: circle;
     gap: 32px;
-    padding: 0;
+    padding: 0 15px 0;
     font-family: "Raleway", Arial, sans-serif;
     font-size: 18px;
     font-weight: 400;
@@ -28,6 +29,7 @@ header {
     display: flex;
     width: 148px;
     height: 105px;
+    
 }
 .address {
     font-family: "Raleway", Arial, sans-serif;
@@ -38,7 +40,6 @@ header {
     align-self: center;
     font-style: normal;
     margin: 0;
-    padding: 0;
 }
 .address_link {
     font-family: "Raleway", Arial, sans-serif;
@@ -64,7 +65,7 @@ header {
     padding: 0px;
     margin: 0 auto;
     display: block;
-    left: 1.5%;
+    left: 2.1%;
 }
 .overlay {
     position: absolute;
@@ -136,7 +137,7 @@ header {
     font-size: 40px;
     text-transform: uppercase;
     line-height: 100%;
-    margin-left: 57px;
+    margin-left: 64px;
     margin-bottom: 27px;
     display: block;
 }
@@ -144,7 +145,7 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 25px;
-    left: 17px;
+    left: 24px;
     position: relative;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -163,7 +164,7 @@ header {
 .film,
 .book,
 .picture {
-    position: absolute;
+    position: relative;
     inset: 0;
     background-position: center;
     background-size: cover;
@@ -221,14 +222,14 @@ header {
     text-decoration-line: underline;
     text-underline-position: under;
     width: fit-content;
-    margin: 28px 0 37px;
-    padding: 0px 0px 0px 59px;
+    margin: 31px 0 37px;
+    padding: 0px 0px 0px 63px;
 }
 .about {
     display: grid;
     grid-template-columns: 240px 1fr;
     gap: 70px;
-    padding: 115px 89px 40px;
+    padding: 114px 96px 40px;
     width: 1100px;
     box-sizing: border-box;
     margin: 0 auto;
@@ -240,7 +241,7 @@ header {
     font-weight: 700;
     text-transform: uppercase;
     line-height: 1;
-    margin: 106px 0 100px 0;
+    margin: 103px 0 100px 0;
     color: #000;
     align-self: start;
 }
@@ -278,16 +279,16 @@ header {
 }
 .footer {
     display: grid;
-    grid-template-columns: 1fr auto auto;
-    gap: 115px;
-    padding: 120px 0 0 67px;
+    grid-template-columns:  auto 1fr auto; 
+    gap: 90px;
+    padding: 120px 76px 27px;
     width: 1100px;
-    align-items: start;
+    text-align: start;
 }
 .footer__menu-list {
     text-align: center;
     list-style: none;
-    padding: 0 62px 0px 35px;
+    padding: 0 0px 0px 64px;
     font-size: 18px;
 }
 .footer__menu-link {
@@ -295,18 +296,20 @@ header {
     text-underline-position: under;
 }
 .footer__social-list {
+    position: relative;
     display: flex;
     gap: 50px;
     list-style: none;
     margin: 0;
-    padding: 0px 30px 0px 10px;
+    padding: 0px 0px 0px 10px;
+    left: 53px;
 }
 .footer__social-icon {
     width: auto;
     height: 48px;
 }
 .footer_address {
-    text-align: left;
+
 }
 .address_text {
     margin: 0;
