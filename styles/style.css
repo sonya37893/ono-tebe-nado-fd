@@ -29,7 +29,6 @@ header {
     display: flex;
     width: 148px;
     height: 105px;
-    
 }
 .address {
     font-family: "Raleway", Arial, sans-serif;
@@ -307,9 +306,6 @@ header {
 .footer__social-icon {
     width: auto;
     height: 48px;
-}
-.footer_address {
-
 }
 .address_text {
     margin: 0;
