@@ -6,7 +6,8 @@ header {
     align-items: center;
     padding: 92px 61px 96px;
     box-sizing: border-box;
-    width: 1100px;
+    max-width: 1100px;
+    width: 100%;
 }
 .header_link-list {
     display: flex;
@@ -51,20 +52,24 @@ header {
     text-decoration: none;
     font-style: normal;
 }
+.main {
+    width: 100%;
+    margin: 0 auto;
+}
 .cover {
     background-image: url("../images/cover.jpg");
-    width: 1100px;
+    width: 100%;
+    max-width: 1100px;
     min-height: 757px;
     position: relative;
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: 50% 30%;
+    background-size: cover;
     color: white;
     box-sizing: border-box;
-    padding: 0px;
-    margin: 0 auto;
+    padding: 0;
+    margin-left: 25px;
     display: block;
-    left: 2.1%;
 }
 .overlay {
     position: absolute;
@@ -129,6 +134,8 @@ header {
     padding: 12px 33px;
 }
 .lots {
+    width: 100%;
+    max-width: 1052px;
     padding: 188px 24px 0 24px;
 }
 .lots_title {
@@ -144,7 +151,7 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 25px;
-    left: 24px;
+    margin-left: 25px;
     position: relative;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -229,7 +236,7 @@ header {
     grid-template-columns: 240px 1fr;
     gap: 70px;
     padding: 114px 96px 40px;
-    width: 1100px;
+    max-width: 1100px;
     box-sizing: border-box;
     margin: 0 auto;
     align-items: start;
@@ -277,41 +284,39 @@ header {
     display: block;
 }
 .footer {
-    display: grid;
-    grid-template-columns:  auto 1fr auto; 
-    gap: 90px;
-    padding: 120px 76px 27px;
-    width: 1100px;
-    text-align: start;
+display: grid;
+grid-template-columns: auto 1fr auto;
+gap: 90px;
+padding: 120px 76px 27px;
+max-width: 1100px;
+text-align: start;
 }
 .footer__menu-list {
-    text-align: center;
-    list-style: none;
-    padding: 0 0px 0px 64px;
-    font-size: 18px;
+text-align: center;
+list-style: none;
+padding: 0;
+font-size: 18px;
 }
 .footer__menu-link {
-    line-height: normal;
-    text-underline-position: under;
+line-height: normal;
+text-underline-position: under;
 }
 .footer__social-list {
-    position: relative;
-    display: flex;
-    gap: 50px;
-    list-style: none;
-    margin: 0;
-    padding: 0px 0px 0px 10px;
-    left: 53px;
+display: flex;
+gap: 50px;
+list-style: none;
+margin: 0 ;
+margin-right: -53px;
+padding: 0;
 }
 .footer__social-icon {
-    width: auto;
-    height: 48px;
+width: auto;
+height: 48px;
 }
 .address_text {
-    margin: 0;
-    padding: 0;
-    line-height: 1.3;
-    font-size: 18px;
-    display: block;
+margin: 0;
+padding: 0;
+line-height: 1.3;
+font-size: 18px;
+display: block;
 }
-
